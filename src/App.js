@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Cell from './Components/Cell';
+import Board from './Components/Board';
 
 function App() {
   return (
     <div className="App">
-      <Cell />
+      <Board />
     </div>
   );
 }
